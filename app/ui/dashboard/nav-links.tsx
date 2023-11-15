@@ -12,7 +12,8 @@ import { usePathname } from 'next/navigation';
 // Depending on the size of the application, this would be stored in a database.
 const links = [
   { name: 'Home', href: '/dashboard', icon: HomeIcon },
-  {https://nextjs.org/learn/dashboard-app/setting-up-your-database#executing-queries
+  { 
+    // https://nextjs.org/learn/dashboard-app/setting-up-your-database#executing-queries
     name: 'Invoices',
     href: '/dashboard/invoices',
     icon: DocumentDuplicateIcon,

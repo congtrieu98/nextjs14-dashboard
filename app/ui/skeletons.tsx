@@ -81,7 +81,7 @@ export function LatestInvoicesSkeleton() {
     </div>
   );
 }
-
+// https://nextjs.org/learn/dashboard-app/streaming#fixing-the-loading-skeleton-bug-with-route-groups
 export default function DashboardSkeleton() {
   return (
     <>

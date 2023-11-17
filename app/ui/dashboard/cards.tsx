@@ -32,6 +32,7 @@ export default async function CardWrapper() {
 
 export function Card({
   title,
+  // https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering#what-is-static-rendering
   value,
   type,
 }: {
